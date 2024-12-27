@@ -1,6 +1,6 @@
 # SAE_301
 
-Lien du site hébergé : sae-301.vercel.app
+[Lien vers le site](https://sae-301.vercel.app/)
 
 Groupe : 
 - Yohan S
