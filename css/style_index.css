@@ -1,0 +1,135 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.logo {
+    width: 150px;
+    object-fit: contain;
+    margin-top: 10px; 
+    display: inline-block;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2b7a2b;
+    height: 90px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1e7dd;
+}
+
+/* Hero */
+.hero {
+    background-color: #2b7a2b;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-green {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden; 
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #2b7a2b;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.card .btn {
+    margin-top: auto;
+}
+
+.card .btn:hover {
+    color: #f9f9f9;
+    background-color: #218838;
+}
+
+.chart-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.chart-container canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #2b7a2b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin-top: 15px;
+}
