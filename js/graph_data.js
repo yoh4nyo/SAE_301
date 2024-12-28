@@ -171,7 +171,7 @@ const graphData = {
     DEPHYfraise1: {
         type: 'doughnut',
         labels: ['Bon', 'Mauvais','Mitigé','Aucun Avis Émis'],
-        data: [22, 11, 4, 1,],
+        data: [25, 11, 4, 1,],
         colors: ['#4CAF50', '#8BC34A','#CDDC39','#618a4f']    
     },
     
