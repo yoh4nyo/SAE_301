@@ -30,19 +30,19 @@ body {
     color: #d1e7dd;
 }
 
-.jumbotron {
+.hero {
     background-color: #e9ecef;
     padding: 3rem 2rem;
     margin-bottom: 2rem;
     border-radius: 0.3rem;
 }
 
-.jumbotron h1 {
+.hero h1 {
     font-weight: 600;
     color: #3B6A4F;
 }
 
-.jumbotron .lead {
+.hero .lead {
     font-size: 1.25rem;
     font-weight: 300;
 }
