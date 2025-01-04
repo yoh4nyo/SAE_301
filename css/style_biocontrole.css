@@ -1,0 +1,100 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #212529;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    width: 150px;
+    object-fit: contain;
+    margin-top: 10px; 
+    display: inline-block;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #2b7a2b;
+    height: 90px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d1e7dd;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+}
+
+.jumbotron h1 {
+    font-weight: 600;
+    color: #3B6A4F;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+section#definition .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section#definition img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #3B6A4F;
+}
+
+/* Animations */
+.animate__animated {
+    --animate-duration: 1s;
+}
+
+/* Footer */
+footer {
+    background-color: #2b7a2b;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin-top: 15px;
+}
